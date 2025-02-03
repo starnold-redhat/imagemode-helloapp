@@ -1,4 +1,4 @@
-FROM quay.io/starnold/bootc-securebase:95 
+FROM quay.io/starnold/bootc-securebase:9 
 
 # We make four distinct layers so if there are application changes the library layers can be re-used
 RUN mkdir -p /helloapp /helloapp/lib /helloapp/app /helloapp/quarkus 
